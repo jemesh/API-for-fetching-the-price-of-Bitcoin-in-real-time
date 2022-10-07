@@ -13,6 +13,8 @@ open the project in pycharm<br/>
   http://127.0.0.1:8000/priceofbitcoin/<br/>
 **list of the price that we have previously fetched (10 data per page)**<br/>
   http://127.0.0.1:8000/list/<br/>
+** fetch the data using id and delete**
+  http://127.0.0.1:8000/list/1 </br>
 **Note** : only authorised person can delete the data ,for that you need to login<br/>
        Before you try to login create super user by run this command<br/>
        python manage.py createsuperuser<br/>
